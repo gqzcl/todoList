@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{E7829B95-D27D-4112-A154-E7D1DE86DCF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{E7829B95-D27D-4112-A154-E7D1DE86DCF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{65D45E06-EE96-436C-8A5C-7E71D0FD62E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "UI\UI.csproj", "{65D45E06-EE96-436C-8A5C-7E71D0FD62E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7829B95-D27D-4112-A154-E7D1DE86DCF3} = {E7829B95-D27D-4112-A154-E7D1DE86DCF3}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
